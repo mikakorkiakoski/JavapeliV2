@@ -1,0 +1,21 @@
+  Welcomes you to the game and gives a guide how to start the game.
+ @GetMapping("/")
+
+ Initializes the game and guides to the first question
+ @GetMapping("/start")
+
+  Gets current question if game is initialized and if there is questions to get.
+ @GetMapping("/question")
+
+   Posts answer for questions. After a post, updates the currentQuestion. Returns Correct or incorrect or game over and updates score.
+ @PostMapping("/answer")
+
+ Watch the video for demo
+
+
+ Link:
+
+ https://youtu.be/Av1FtpJ8FEo
+
+
+

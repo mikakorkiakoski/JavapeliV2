@@ -26,7 +26,7 @@ public class MyRestController {
         return "Quiz started. Use /question to get the first question.";
     }
 
-    // Gets current question.
+    // Gets current question if game is initialized and if there is questions to get.
     @GetMapping("/question")
     public Question getCurrentQuestion() {
         return quizService.getCurrentQuestion();
